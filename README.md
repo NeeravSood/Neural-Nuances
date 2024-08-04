@@ -1,3 +1,5 @@
 # Neural-Nuances
 
-Coming Soon!
+A Bi-Weekly Newsletter. 
+
+More Details coming soon!
