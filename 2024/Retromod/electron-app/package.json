@@ -1,1 +1,17 @@
-// Your package.json file for Electron 
+{
+  "name": "retro-game-enhancer",
+  "version": "1.0.0",
+  "description": "An Electron app to enhance retro games using AI/ML models.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "dependencies": {
+    "electron": "^24.0.0",
+    "electron-builder": "^24.1.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
