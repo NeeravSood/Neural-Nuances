@@ -1,1 +1,7 @@
-// Your requirements.txt 
+Flask==2.1.2
+torch==2.0.1
+torchvision==0.15.2
+Pillow==9.1.1
+numpy==1.23.1
+scipy==1.8.1
+esrgan==0.1.1  # Assuming esrgan is a custom or available package
