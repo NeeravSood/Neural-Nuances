@@ -1,1 +1,31 @@
-// Your HTML code 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Game Enhancer</title>
+</head>
+<body>
+    <h1>Retro Game Enhancer</h1>
+    <input type="file" id="game-file" accept=".exe,.rom">
+    <h3>Select Enhancements:</h3>
+    <label>
+        <input type="checkbox" id="enhance-graphics" checked>
+        Enhance Graphics (Super-Resolution)
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="enhance-sound">
+        Enhance Sound (AI Audio Upscaling)
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" id="enhance-npc">
+        Enhance NPC AI (Improved Behaviors)
+    </label>
+    <br>
+    <button id="run-game-btn">Run Game</button>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
