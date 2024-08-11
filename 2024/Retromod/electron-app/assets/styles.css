@@ -1,1 +1,124 @@
-// Your CSS 
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Ensure content is not right at the edge of small screens */
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 450px; /* Ensure a maximum width for larger screens */
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; /* Smooth transition for responsiveness */
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 6vw; /* Scalable font size */
+    color: #ffa500;
+    transition: font-size 0.3s ease; /* Smooth transition for font resizing */
+}
+
+/* File Input */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    background-color: #3e3e3e;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 350px; /* Ensure a maximum width */
+    font-size: 4vw; /* Scalable font size */
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 4vw; /* Scalable font size */
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #ff8c00;
+}
+
+/* Checkbox Styling */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 4vw; /* Scalable font size */
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #ffa500;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 4.5vw; /* Scalable font size */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+/* Responsive Design - Adjust for Larger Screens */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 24px; /* Fixed size for larger screens */
+    }
+
+    input[type="file"], input[type="file"]::-webkit-file-upload-button, label, button {
+        font-size: 16px; /* Fixed size for larger screens */
+    }
+}
+
+/* Further Adjustment for Even Larger Screens */
+@media (min-width: 1024px) {
+    .container {
+        padding: 30px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
