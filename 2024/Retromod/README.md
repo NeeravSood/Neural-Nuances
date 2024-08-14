@@ -1,6 +1,5 @@
 ### RetroMod Project
 
-```markdown
 # RetroMod: Retro Game Enhancement API
 
 Welcome to RetroMod, a modular API designed to enhance the capabilities of retro game emulators. This project provides a unified interface to integrate advanced rendering, audio enhancements, input management, and state control into various retro game emulators, catering to games from the 1990s through 2020.
